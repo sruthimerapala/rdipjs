@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>Validation</title>
+    <link rel="stylesheet" href="style2.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div>
+        <form action="#" name="myForm" onsubmit="submitted()">
+            <table>
+                <tr>
+                    <td>
+                        <label>Name</label>
+                    </td>
+                    <td>
+                        <label>:</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Name" name="name" id="name-box" onkeyup="validate()" />
+                    </td>
+                    <td>
+                        <label id="name-msg"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Phone Number</label>
+                    </td>
+                    <td>
+                        <label>:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="num" placeholder="Phone Number" id="number-box" onkeyup="validate()" />
+                    </td>
+                    <td>
+                        <label id="num-msg"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email</label>
+                    </td>
+                    <td>
+                        <label>:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="mail" placeholder="Email" id="email-box" onkeyup="validate()" />
+                    </td>
+                    <td>
+                        <label id="mail-msg"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="button" colspan="3">
+                        <input type="Submit" value="Submit" id="submit" disabled />
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+</body>
+
+</html>

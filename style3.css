@@ -1,0 +1,15 @@
+body {
+  width: 70%;
+  margin-left: 15%;
+}
+div {
+  width: 70%;
+  margin-left: 15%;
+}
+table {
+  text-align: left;
+  border: 1px solid black;
+}
+td {
+  padding: 10px;
+}

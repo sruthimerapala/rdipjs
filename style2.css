@@ -1,0 +1,22 @@
+body {
+  width: 70%;
+  margin-left: 15%;
+}
+div {
+  width: 70%;
+  margin-left: 15%;
+  border: 1px solid black;
+}
+table {
+  text-align: left;
+}
+td {
+  padding: 10px;
+}
+.button {
+  text-align: center;
+}
+.button input {
+  width: 50%;
+  height: 30px;
+}
